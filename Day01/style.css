@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+    /*line-height - высота строки, т.е расстояние между строками*/
+}
+
+p {
+    text-indent: 20px;
+    /* Отступ у абзаца, текста */
+}
+
+.title {
+    text-align: center;
+    /* Выравнивание текста */
+    letter-spacing: 4px;
+    /* Отступы между буквами */
+}
+
+.justify {
+    text-align: justify;
+    /*justify - текст занимает вск пространство блока*/
+    font-weight: normal;
+    /* font-weight - Жирность шрифта */
+    font-style: normal;
+    /* font-weight - Курсив*/
+}
+
+ul {
+    list-style-type: decimal;
+    /* Изменение символов для маркеров*/
+    list-style-position: inside;
+    /* Именение позиции маркеров*/
+}
