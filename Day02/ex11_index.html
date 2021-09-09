@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML Tables</title>
+</head>
+
+<body>
+
+    <h1 class="title">Таблицы</h1>
+
+    <!--Для таблиц существует тег <table></table> -->
+    <table class="table">
+        <!--Для создания строки существует тег <tr></tr> -->
+        <!--Для создания ячейки существует тег <td></td>-->
+        <!--Для выделения ячейки существует тег <th></th>-->
+        <!--<thead></thead> Это шапка таблицы -->
+        <!--<tbody></tbody> Это тело таблицы -->
+        <!--<tfoot></tfoot> Это "Подвал" таблицы -->
+        <thead>
+            <tr>
+
+                <th>#</th>
+                <th>Name</th>
+                <th>E-mail</th>
+                <th>Registration Date</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <!--Для создания ячейки существует тег <td></td>-->
+                <td>1</td>
+                <td>Maksim</td>
+                <td>maksim@maksim.com</td>
+                <td>07/09/2021</td>
+            </tr>
+
+            <tr>
+                <!--Для создания ячейки существует тег <td></td>-->
+                <td>2</td>
+                <td>Mr NO Sulfite</td>
+                <td>no@sulfite.com</td>
+                <td>31/08/2021</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Total: 2</td>
+                <!--Свойсво colspan растягивает ячейку на размер выбранного колличества ячеек -->
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>

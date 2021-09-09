@@ -1,0 +1,62 @@
+p {
+    text-indent: 20px;
+    /* Отступ у абзаца, текста */
+}
+
+.title {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+.table {
+    width: 100%;
+    border: 2px solid #000;
+    /* граница: ширина типГраницы цвет*/
+    border-collapse: collapse;
+    /*Схлопывает границы между ячейками*/
+    table-layout: fixed;
+    /*свойство table-layout делает все ячейки одинаковой ширины */
+}
+
+.table th {
+    padding: 5px 10px;
+    text-align: left;
+    color: rgba(247, 75, 75, 0.938);
+}
+
+.table td {
+    padding: 5px 10px;
+    /* padding это внутренний отступ*/
+    border: 1px solid #000;
+}
+
+.table tfoot td {
+    text-align: right;
+}
+
+.text_red {
+    /*display делает из блочного элемента строчный и наоборот*/
+    /*display: inline-block;  делает блочно-строчный элемент*/
+    display: inline-block;
+    margin: 10px;
+    color: rgb(194, 25, 25);
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* .content {
+    /*margin это внешний отступ элемента от границ страницы или других жлементов 
+    margin: 10px 20px;
+    width: 200px;
+    height: 300px;
+} */
+
+.page {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
