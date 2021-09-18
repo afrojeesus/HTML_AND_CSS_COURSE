@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+    /*line-height - высота строки, т.е расстояние между строками*/
+    background-image: url(IMG/background_img.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+
+/*  POST */
+
+.post {
+    width: 700px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px 25px;
+    background-color: #fff;
+}
+
+.post-title {
+    margin: 0 0 20px 0;
+    color: rgb(32, 113, 219);
+}
+
+.post-text p {
+    margin: 0 0 10px 0;
+}
